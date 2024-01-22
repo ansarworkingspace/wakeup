@@ -1,0 +1,147 @@
+.VideoOnBodyDiv {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.videoFrame{
+    height: 39rem;
+}
+
+.videoFrame img{
+    height: 39rem;
+}
+
+
+
+.textOnvideo {
+    width: 30rem;
+    /* background-color: cornflowerblue; */
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textOnvideo h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem; /* Adjust the margin-right as needed */
+    margin-bottom: 0; /* Remove any default bottom margin */
+}
+
+.textOnvideo img {
+    width: 17rem;
+    margin-left: 17rem; /* Adjust the margin-left as needed */
+}
+
+
+
+
+.afterVideoText{
+    width: 30rem;
+    /* background-color: cornflowerblue; */
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.afterVideoText h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-bottom: 13rem;
+    margin-top: 0;
+}
+
+.afterVideoText img {
+    width: 17rem;
+    margin-right: 17rem; /* Adjust the margin-left as needed */
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .VideoOnBodyDiv {
+        width: 100%;
+        height: 53rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
+    
+    
+    .textOnvideo {
+        width: 12rem;
+        /* background-color: cornflowerblue; */
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .textOnvideo h3 {
+        color: white;
+        font-size: 17px;
+        margin-right: 1rem;
+        margin-bottom: 0;
+        margin: 0;
+    }
+    
+    
+    .textOnvideo img {
+        width: 11rem;
+        margin-top: 6px;
+        margin-left: 0;
+        transform: rotate(128deg);
+    }
+    
+    
+    
+    .videoFrame {
+        height: 29rem;
+    }
+    
+    
+    .videoFrame img {
+        height: 29rem;
+    }
+
+
+    .afterVideoText {
+        width: 12rem;
+        /* background-color: cornflowerblue; */
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .afterVideoText img {
+        width: 11rem;
+        margin-right: 0;
+        transform: rotate(128deg);
+    }
+    
+    .afterVideoText h3 {
+        color: white;
+        font-size: 16px;
+        margin-right: 0;
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+
+
+
+}

@@ -1,0 +1,83 @@
+
+
+.Link {
+    width: 77%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10.5rem;
+    margin-top: 2rem;
+    border-style: dashed;
+    border-color: #f5f5f5d4;
+    border-radius: 2rem;
+    
+}
+  
+  .Link h2 {
+    font-size: 2rem;
+    background: linear-gradient(to right, #ffffff, #798b9c);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+  
+  .Link .arrow {
+    position: absolute;
+    bottom: -1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    right: 5.5rem;
+  }
+  
+  .Link a {
+    color: white;
+  }
+  
+
+  @keyframes blink {
+    0% {
+      color: white;
+    }
+    50% {
+      color: transparent;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
+  .Link a {
+    animation: blink 1.5s infinite; /* Adjust the duration as needed */
+  }
+
+
+  @media screen and (max-width:768px) {
+    .Link{
+        height: 5rem;
+        margin-left: 3rem;
+        border-radius: 1rem;
+    }
+    
+    .Link h2{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    
+    
+    .Link .arrow{
+        right: 2.5rem;
+        font-size: 19px;
+        bottom: -1.5rem;
+    }
+    
+    .Link a{
+    
+         font-size: 11px;
+    
+    }
+  }

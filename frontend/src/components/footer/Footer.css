@@ -1,0 +1,77 @@
+
+
+.footerMain {
+    width: 100%;
+    height: 17rem;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footerContent {
+    width: 70%;
+    height: 13rem;
+    background: linear-gradient(45deg, #4b6cb7,#182848 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    
+  }
+
+.footerContent h3,p{
+    background: linear-gradient(to right,#dddddd, #798b9c);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+  
+  .socialLogo {
+    display: flex;
+    gap: 37px; /* Adjust the gap as needed */
+    margin-top: 10px; /* Add margin to separate from the text */
+  }
+  
+  .socialIcon {
+    color: white; /* Set the color to white */
+    font-size: 21px; /* Adjust the font size as needed */
+  }
+  
+
+  @media screen and (max-width:768px) {
+    
+  
+  .footerContent {
+    width: 88%;
+    height: 7rem;
+    background: linear-gradient(45deg, #4b6cb7,#182848 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    
+  }
+
+  .footerContent h3{
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .footerContent p{
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  
+  .socialLogo {
+    gap: 18px;
+    margin-top: 10px;
+  }
+  
+  .socialIcon {
+    font-size: 12px;
+  }
+  
+  }

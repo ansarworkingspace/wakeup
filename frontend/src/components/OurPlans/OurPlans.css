@@ -1,0 +1,136 @@
+.OurPlanDiv {
+    width: 100%;
+    height: 35rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.OurPlanDiv h2{
+    font-size: 2.5rem;
+    background: linear-gradient(to right,#dddddd, #798b9c);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.planContainer{
+    width: 88%;
+    height: 26rem;
+    /* background-color: #d0d0d0; */
+    display: flex;
+    justify-content: space-evenly;
+}
+/* 
+.planOne {
+    width: 40%;
+    height: 25rem;
+    background-color: green;
+    border-radius: 2rem;
+    margin-top: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+} */
+
+
+.planOne {
+    width: 40%;
+    height: 25rem;
+    /* background: linear-gradient(45deg, #23074d, #cc5333); payment*/
+    background: linear-gradient(45deg, #182848, #4b6cb7);
+    border-radius: 2rem;
+    margin-top: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.planOne h4{
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
+
+.planOne h2{
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+.planTwo {
+    width: 40%;
+    height: 25rem;
+    background-color: green;
+    border-radius: 2rem;
+    margin-top: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(45deg, #4b6cb7,#182848 );
+
+}
+
+
+.planTwo h4{
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
+
+.planTwo h2{
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .OurPlanDiv{
+        height: 17rem;
+    }
+
+    .OurPlanDiv h2{
+        font-size: 1.5rem;
+    }
+    
+    .planContainer{
+        width: 88%;
+        height: 11rem;
+    }
+
+    .planOne{
+        width: 40%;
+        height: 9rem;
+        border-radius: 1rem;
+    }
+
+    .planOne h4{
+        font-size: 13px;
+    }
+    .planOne h2{
+        font-size: 37px;
+    }
+
+    .planTwo{
+        width: 40%;
+        height: 9rem;
+        border-radius: 1rem;
+    }
+
+    .planTwo h4{
+        font-size: 13px;
+    }
+    .planTwo h2{
+        font-size: 37px;
+    }
+
+}
