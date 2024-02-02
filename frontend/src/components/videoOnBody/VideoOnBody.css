@@ -200,7 +200,7 @@
     
   
     .videoFrame video {
-        box-shadow: 0 0 12rem #8d5699;
+        box-shadow: 0 0 12rem black;
         width: 86%;
         height: 100%;
         border: none;
