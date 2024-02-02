@@ -192,7 +192,7 @@
     .videoFrame {
         height: 40rem;
         width: 17rem;
-        background: url(Phoneframe.png);
+        background: url('/Phoneframe.png');
         background-repeat: no-repeat;
         position: relative;
         background-size: 17rem 33rem;
