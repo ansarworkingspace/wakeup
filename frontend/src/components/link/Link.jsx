@@ -4,7 +4,7 @@ const Link = () => {
   return (
     <div className='Link'>
      <h2>Fill this form <span className="arrow">&#9660;</span></h2>
-      <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://forms.gle/uugKEWsW3E4ZK7F46" target="_blank" rel="noopener noreferrer">
       Click here
       </a>
     </div>

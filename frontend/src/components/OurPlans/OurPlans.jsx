@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './OurPlans.css'
 
 
 const OurPlans = () => {
+
+
+  useEffect(() => {
+    const planOne = document.querySelector('.planOne');
+    planOne.classList.add('show');
+  }, []);
+
+  useEffect(() => {
+    const planTwo = document.querySelector('.planTwo');
+    planTwo.classList.add('show');
+  }, []);
+
+
+
+
   return (
     <div className='OurPlanDiv'>
       <h2>Select any plan</h2>
@@ -22,3 +37,4 @@ const OurPlans = () => {
 }
 
 export default OurPlans
+

@@ -1,4 +1,4 @@
-.VideoOnBodyDiv {
+/* .VideoOnBodyDiv {
     width: 100%;
     height: 40rem;
     display: flex;
@@ -9,17 +9,19 @@
 
 .videoFrame{
     height: 39rem;
+ 
 }
 
 .videoFrame img{
     height: 39rem;
+    
 }
 
 
 
 .textOnvideo {
     width: 30rem;
-    /* background-color: cornflowerblue; */
+   
     height: 34rem;
     display: flex;
     align-items: center;
@@ -30,21 +32,20 @@
 .textOnvideo h3 {
     color: white;
     font-size: 1.4rem;
-    margin-right: 1rem; /* Adjust the margin-right as needed */
-    margin-bottom: 0; /* Remove any default bottom margin */
+    margin-right: 1rem; 
+    margin-bottom: 0; 
 }
 
 .textOnvideo img {
     width: 17rem;
-    margin-left: 17rem; /* Adjust the margin-left as needed */
+    margin-left: 17rem; 
 }
-
 
 
 
 .afterVideoText{
     width: 30rem;
-    /* background-color: cornflowerblue; */
+   
     height: 34rem;
     display: flex;
     align-items: center;
@@ -62,9 +63,145 @@
 
 .afterVideoText img {
     width: 17rem;
-    margin-right: 17rem; /* Adjust the margin-left as needed */
+    margin-right: 17rem;
+} */
+
+
+.VideoOnBodyDiv {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.videoFrame {
+    height: 45rem;
+    width: 22rem;
+    background: url('Phoneframe.png');
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  /* .videoFrame video{
+    box-shadow: 0 0 12rem black;
+    width: 89%;
+    height: 98%;
+    border: none;
+    outline: none;
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 1.5rem;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 4rem;
+  } */
+
+  .videoFrame video {
+    box-shadow: 0 0 12rem #8d5699;
+    width: 89%;
+    height: 98%;
+    border: none;
+    outline: none;
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 1.3rem;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+    border-top-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+}
+
+.textOnvideo {
+    width: 30rem;
+   
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .textOnvideo h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem; 
+    margin-bottom: 0; 
+} */
+
+
+.textOnvideo h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem; 
+    margin-bottom: 0; 
+    opacity: 0; /* Start with opacity set to 0 */
+    transform: translateX(-100%); /* Start position outside the view on the left */
+    transition: opacity 1s ease, transform 1s ease; /* Slower animation transition properties */
+}
+
+.textOnvideo h3.show {
+    opacity: 1; /* Make the element visible */
+    transform: translateX(0); /* Move the element to its original position */
+}
+
+
+
+
+
+
+.textOnvideo img {
+    width: 17rem;
+    margin-left: 17rem; 
+}
+
+
+
+.afterVideoText{
+    width: 30rem;
+   
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .afterVideoText h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-bottom: 13rem;
+    margin-top: 0;
+} */
+
+
+.afterVideoText h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-bottom: 13rem;
+    margin-top: 0;
+    opacity: 0; /* Start with opacity set to 0 */
+    transform: translateX(100%); /* Start position outside the view on the right */
+    transition: opacity 1s ease, transform 1s ease; /* Slower animation transition properties */
+}
+
+.afterVideoText h3.show {
+    opacity: 1; /* Make the element visible */
+    transform: translateX(0); /* Move the element to its original position */
+}
+
+
+
+
+.afterVideoText img {
+    width: 17rem;
+    margin-right: 17rem;
+}
 
 
 
@@ -82,7 +219,7 @@
     
     .textOnvideo {
         width: 12rem;
-        /* background-color: cornflowerblue; */
+     
         height: 12rem;
         display: flex;
         align-items: center;
@@ -108,19 +245,50 @@
     
     
     
+    /* .videoFrame {
+        height: 29rem;
+    }
+    
+    
+    .videoFrame video{
+        height: 29rem;
+    } */
+
+
     .videoFrame {
-        height: 29rem;
+        height: 40rem;
+        width: 17rem;
+        background: url(Phoneframe.png);
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 17rem 33rem;
     }
     
-    
-    .videoFrame img {
-        height: 29rem;
+  
+    .videoFrame video {
+        box-shadow: 0 0 12rem black;
+        width: 86%;
+        height: 100%;
+        border: none;
+        outline: none;
+        display: block;
+        position: absolute;
+        top: 0rem;
+        left: 1.2rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
     }
+
+
+
+
 
 
     .afterVideoText {
         width: 12rem;
-        /* background-color: cornflowerblue; */
+      
         height: 12rem;
         display: flex;
         align-items: center;
