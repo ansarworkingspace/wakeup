@@ -144,11 +144,16 @@
     
     .audio h2{
         text-align: center;
+        font-size: 1.3rem;
     } 
+
+    .playButton {
+        font-size: 10px;
+    }
 
     .important h2 {
 
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         text-align: center;
         position: relative;
         top: 1rem;
@@ -173,7 +178,7 @@
      
         font-size: 12px;
         position: relative;
-        text-align: justify;
+        text-align: start;
         right: 1rem;
       
     }
