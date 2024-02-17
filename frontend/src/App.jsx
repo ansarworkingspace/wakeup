@@ -5,7 +5,6 @@ import AfterHead from './components/afterHead/AfterHead'
 import VideoOnBody from './components/videoOnBody/VideoOnBody'
 import OurPlans from './components/OurPlans/OurPlans'
 import Payments from './components/payments/Payments'
-import Link from './components/link/Link'
 import About from './components/about/About'
 import Footer from './components/footer/Footer'
 import FakeDiv from './components/FakeDiv'
@@ -19,10 +18,9 @@ const App = () => {
       <VideoOnBody/>
       <OurPlans/>
       <Payments/>
-      <Link/>
       <About/>
       <Footer/>
-      {/* <FakeDiv/> */}
+     
     </div>
   )
 }

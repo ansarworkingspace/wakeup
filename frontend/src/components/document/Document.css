@@ -1,0 +1,182 @@
+.docMain {
+    width: 86%;
+    background: linear-gradient(45deg, #1D976C, #4b6cb7);
+    min-height: 30rem;
+    display: flex;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    border-radius: 1rem;
+}
+
+
+.docMain img{
+    width: 4rem;
+    position: relative;
+    top: 11px;
+    left: 37rem;
+}
+
+.border {
+    background-color: #080d23;
+    width: 91%;
+    min-height: 25rem;
+    position: relative;
+    top: 1rem;
+    border-color: #d0d0d0;
+    border-radius: 3rem;
+    display: flex;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.audio {
+    width: 84%;
+    height: 13rem;
+   
+    position: relative;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 12px;
+}
+
+
+.playButton {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+    background: linear-gradient(45deg, #1D976C, #4b6cb7);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.important{
+    width: 84%;
+    min-height: 31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.important h2
+{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.important ul
+{
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.services{
+    width: 84%;
+    min-height: 31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services h2
+{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.services ul
+{
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.formHTwo{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .docMain {
+        left: 1.7rem;
+        border-radius: 12px;
+    }
+    
+    .docMain img {
+        width: 2rem;
+        top: 8px;
+        left: 9rem;
+    }
+    
+    .border {
+        top: 14px;
+        border-radius: 14px;
+      
+    }
+    
+    .audio h2{
+        text-align: center;
+    } 
+
+    .important h2 {
+
+        font-size: 1.6rem;
+        text-align: center;
+        position: relative;
+        top: 1rem;
+    
+    }
+    
+    .important ul {
+     
+        font-size: 15px;
+      
+    }
+    
+    .services h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .services ul {
+     
+        font-size: 15px;
+      
+    }
+    
+    .formHTwo {
+      
+        font-size: 17px;
+        text-align: center;
+     
+    }
+
+}
