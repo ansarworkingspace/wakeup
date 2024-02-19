@@ -52,7 +52,7 @@ const VideoOnBody = () => {
       </div>
       <div className="afterVideoText">
         <img src="RightArrow.png" alt="" />
-        <h3>We are a community</h3>
+        <h3>We are a community in kerala</h3>
       </div>
     </div>
   );
